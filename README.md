@@ -2,6 +2,11 @@
 
 A comprehensive PowerShell toolkit for Windows system management, debloating, activation, and application installation.
 
+**I am NOT responsible for any damage done to your machine.**
+**WinSAK** is simply a PowerShell-based interface that uses small scripts and links to amazing open-source projects.
+
+**If you don’t understand what you’re doing, you should not be doing it.**
+
 ## Features
 
 ### 1. System Information & Diagnostics
