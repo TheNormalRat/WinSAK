@@ -8,7 +8,7 @@
     Designed to be extensible and easy to maintain.
 .NOTES
     Author: TheNormalRat
-    Version: 0.1.0
+    Version: v0.1.0
     Created: December 11, 2025
 #>
 

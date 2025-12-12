@@ -4,8 +4,8 @@
 .DESCRIPTION
     A comprehensive Windows utility toolkit with an easy-to-use menu interface
 .NOTES
-    Author: BarnumK
-    Version: 1.0.0
+    Author: TheNormalRat
+    Version: v0.1.0
 #>
 
 # Set script location
