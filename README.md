@@ -1,4 +1,4 @@
-# Windows Swiss Army Knife
+# Windows Swiss Army Knife (WinSAK)
 
 A comprehensive PowerShell toolkit for Windows system management, debloating, activation, and application installation.
 
