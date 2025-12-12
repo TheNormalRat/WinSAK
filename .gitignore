@@ -1,0 +1,27 @@
+# PowerShell specific
+*.ps1~
+*.psm1~
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# User-specific files
+*.user
+
+# VS Code
+.vscode/settings.json
+.vscode/tasks.json
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Downloaded external tools (will be fetched on demand)
+Win11Debloat/
+MAS/
+
+# Logs and temp data
+logs/
+temp/
