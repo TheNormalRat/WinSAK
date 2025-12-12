@@ -45,8 +45,8 @@ Quick installation of popular applications via winget:
 
 1. Clone or download this repository:
    ```powershell
-   git clone https://github.com/yourusername/windows-swiss-army-knife.git
-   cd windows-swiss-army-knife
+   git clone https://github.com/TheNormalRat/WinSAK.git
+   cd WinSAK
    ```
 
 2. Run the launcher script:
@@ -71,7 +71,7 @@ The menu-driven interface makes it easy to:
 ## Project Structure
 
 ```
-windows-swiss-army-knife/
+WinSAK/
 │
 ├── Start-WinSAK.ps1              # Main launcher script
 ├── WindowsSwissArmyKnife.psm1    # Core module
