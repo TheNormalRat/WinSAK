@@ -46,32 +46,57 @@ Quick installation of popular applications via winget:
 - Administrator privileges (for some operations)
 - Internet connection (for downloads and activation)
 
-## Installation
+## Installation & Usage
 
+### Method 1: One-Line Quick Start (No Installation Required)
+Perfect for quick use or trying out the tool. Run this command in PowerShell:
+```powershell
+irm https://raw.githubusercontent.com/TheNormalRat/WinSAK/main/Start-WinSAK.ps1 | iex
+```
+This downloads and runs the script directly without cloning the repository.
+
+### Method 2: Batch File Launcher (Recommended for Regular Use)
 1. Clone or download this repository:
    ```powershell
    git clone https://github.com/TheNormalRat/WinSAK.git
-   cd WinSAK
    ```
+   Or download as ZIP and extract it.
 
-2. Run the launcher script:
+2. Double-click **`WinSAK.bat`** to launch with automatic admin privileges.
+
+### Method 3: PowerShell Direct
+1. Clone or download the repository (see Method 2)
+2. Navigate to the folder and run:
    ```powershell
    .\Start-WinSAK.ps1
    ```
 
-## Usage
+## How to Use
 
-Simply run `Start-WinSAK.ps1` and navigate through the interactive menu system:
+Once launched, you'll see an interactive menu with the following options:
 
-```powershell
-.\Start-WinSAK.ps1
-```
+**System Information & Diagnostics**
+- View comprehensive system details (OS, CPU, RAM, disk space)
+- List all installed software
+- Monitor top processes by CPU or memory usage
 
-The menu-driven interface makes it easy to:
-- Browse system information
-- Activate Windows/Office
-- Debloat Windows 11
-- Install popular applications
+**Windows Activation Tools**
+- Check current Windows activation status
+- Activate Windows using HWID/KMS methods
+- Activate Microsoft Office products
+
+**Windows Debloat Manager**
+- Run default debloat with recommended settings
+- Use silent mode for automated deployments
+- Custom debloat to selectively remove specific apps
+- Revert changes and reinstall removed applications
+
+**Install Applications**
+- Quick install popular apps (Steam, Discord, Chrome, Firefox, etc.)
+- Search and install any app from winget repository
+- View all currently installed applications
+
+Simply enter the number of your choice and follow the prompts. The interface is designed to be self-explanatory and user-friendly.
 
 ## Project Structure
 
@@ -79,7 +104,7 @@ The menu-driven interface makes it easy to:
 WinSAK/
 │
 ├── Start-WinSAK.ps1              # Main launcher script
-├── WindowsSwissArmyKnife.psm1    # Core module
+├── WinSAK.bat                    # Batch file launcher (auto admin)
 │
 └── Utilities/                     # Utility modules
     ├── SystemInfo.ps1            # System information functions
