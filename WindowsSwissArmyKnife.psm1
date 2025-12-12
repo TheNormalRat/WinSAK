@@ -7,8 +7,8 @@
     A collection of useful Windows utilities, scripts, and tools compiled into one modular PowerShell module.
     Designed to be extensible and easy to maintain.
 .NOTES
-    Author: BarnumK
-    Version: 1.0.0
+    Author: TheNormalRat
+    Version: 0.1.0
     Created: December 11, 2025
 #>
 
